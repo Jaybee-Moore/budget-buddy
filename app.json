@@ -4,17 +4,22 @@
     "slug": "budget-buddy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+  "icon": "./assets/logo.png",
     "scheme": "budgetbuddy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+  "supportsTablet": true,
+  "icon": "./assets/logo.png",
+  "iconAssetPath": "./assets/logo.png",
+  "iconBackgroundColor": "#FFFFFF",
+  "iconPadding": true,
+  "iconRoundedCorners": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
       },
       "edgeToEdgeEnabled": true
     },
@@ -28,8 +33,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/logo.png",
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }

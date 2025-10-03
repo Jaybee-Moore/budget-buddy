@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Budget Buddy
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple React Native app for tracking daily expenses, built with Expo.
 
-## Get started
+## Overview
+Budget Buddy helps you log your spending, view totals by category, and keep your budget organized. All data is stored locally on your device.
 
-1. Install dependencies
+## Features
+- Add expenses with title, amount, and category
+- Category selection via horizontal chips (Food, Transport, Bills, Other)
+- View total spent and per-category breakdown
+- Recent expenses list (newest first)
+- Input validation and empty state message
+- Persistent local storage (AsyncStorage)
+- Clean, responsive UI
 
-   ```bash
+## Tech Stack
+- React Native
+- Expo
+- AsyncStorage
+- No external dependencies for formatting
+
+## How to Run
+1. Install [Expo Go](https://expo.dev/client) on your mobile device.
+2. Clone this repo:
+   ```sh
+   git clone <your-repo-url>
+   cd budget-buddy
+   ```
+3. Install dependencies:
+   ```sh
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
+4. Start the app:
+   ```sh
+   npx expo start -c
    ```
+5. Scan the QR code with Expo Go to run on your device.
 
-In the output, you'll find options to open the app in a
+## Screenshots
+<!-- Add screenshots here -->
+- Home screen
+- Add expense form
+- Category chips
+- Recent expenses list
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Made with ❤️ using React Native and Expo.

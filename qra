@@ -1,0 +1,23 @@
+# Create input field component
+New-Item components\forms\TextInputField.js -ItemType File
+
+# Create button component
+New-Item components\forms\Button.js -ItemType File
+
+# Create login and signup screens
+New-Item app\auth\login.js -ItemType File
+New-Item app\auth\signup.js -ItemType File
+
+# Create budget-related screens
+New-Item app\budget\BudgetList.js -ItemType File
+New-Item app\budget\AddBudget.js -ItemType File
+
+# Create transaction-related screens
+New-Item app\transactions\TransactionList.js -ItemType File
+New-Item app\transactions\AddTransaction.js -ItemType File
+
+
+
+
+
+
